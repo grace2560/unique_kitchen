@@ -1,0 +1,118 @@
+#logo{
+    width: 70px;
+    height: 85px;
+}
+
+nav{
+    padding: 0px 40px 0px 40px;
+}
+
+.sliders{
+    margin-top: 0px;
+    width: 100%;
+}
+
+section{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.our-offers h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+
+#cards{  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 15px solid rgb(178, 178, 209);
+  align-items: center;
+}
+
+#img-card{
+    width: 200px;
+    height: 200px;
+}
+
+#rows{
+    margin-top: 50px;
+}
+#rows2{
+    margin-top: 50px;
+}
+
+#card-title{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+#product-names{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
+#card-title a{
+    text-decoration: none;
+    color: black;
+}
+
+#card-title a:hover{
+    color: blue;
+}
+.trending{
+    width: 100%;
+    background-color: #ffebee;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+marquee{
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+}
+
+footer{
+    padding-top: 70px;
+    background-color: whitesmoke;
+}
+
+#log{
+    width: 60px;
+    height: 80px;
+}
+h3{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.imgt{
+    width: 70px;
+    height: 70px;
+}
+
+.accept{
+    font-size: 20px;
+    
+}
+
+.pay{
+    text-align: center;
+}
+
+#social{
+    text-align: center;
+}
+
+.pays{
+    margin-top: 50px;
+}
+
+#grace{
+
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assests/css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Langar&family=Playfair+Display&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Unique Kitchen ware</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img id="logo" src="../assests/images/logo.png" alt="" srcset=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact us</a>
+                        </li>
+
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- this is the part that has the sliders for the site  -->
+    <section class="sliders">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assests/images/slider/slider1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assests/images/slider/slider2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assests/images/slider/slider3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- the part for the cards  -->
+
+    <section>
+        <div class="container">
+            <div class="row our-offers">
+                <div class="col-md-12 ">
+                    <h1>Our Products</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="cards" class="card" style="width: 18rem;">
+                        <img id="img-card" src="../assests/images/offers/bread.jpg" class="card-img-top" alt="...">
+                        <div id="card-title" class="card-title"> <a href="storage.html">Storage and organisation</a>
+                        </div>
+                        <div class="card-body">
+
+                            <p id="product-names" class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="cards" class="card" style="width: 18rem;">
+                        <img id="img-card" src="../assests/images/offers/coffee.jpg" class="card-img-top" alt="...">
+                        <div id="card-title" class="card-title"> <a href="electronics.html">electronics</a></div>
+                        <div class="card-body">
+                            <div class="card-title"></div>
+                            <p id="product-names" class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="cards" class="card" style="width: 18rem;">
+                        <img id="img-card" src="../assests/images/offers/stainless.jpg" class="card-img-top" alt="...">
+                        <div id="card-title" class="card-title"> <a href="#">cutlery</a></div>
+                        <div class="card-body">
+                            <p id="product-names" class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rows" class="row">
+                <div class="col-md-4">
+                    <div id="cards" class="card" style="width: 18rem;">
+                        <img id="img-card" src="../assests/images/offers/coasters.jpg" class="card-img-top" alt="...">
+                        <div id="card-title" class="card-title"> <a href="#">tableware</a></div>
+                        <div class="card-body">
+                            <p id="product-names" class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="cards" class="card" style="width: 18rem;">
+                        <img id="img-card" src="../assests/images/offers/hopes photos/frying pan.jpg" card-img-top"
+                            alt="...">
+                        <div id="card-title" class="card-title"> <a href="#">food preparation utesils</a></div>
+                        <div class="card-body">
+                            <p id="product-names" class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="cards" class="card" style="width: 18rem;">
+                        <img id="img-card" src="../assests/images/offers/hopes photos/champagane decanter.jpg"
+                            class="card-img-top" alt="...">
+                        <div id="card-title" class="card-title"> <a href="#">dining and entertainment</a></div>
+                        <div class="card-body">
+                            <p id="product-names" class="card-text">.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="trending">
+        <div class="container">
+            <div class="row our-offers">
+                <h1>Trending Products</h1>
+            </div>
+            <div class="row">
+                <div id="trend-slider" class="col-md-6">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../assests/images/products/laptop.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../assests/images/products/32276.jpg" class="d-block w-100" alt="...">
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div id="trend-text" class="col-md-6">
+                    <!-- <marquee behavior="slide" direction="left">Lorem ipsum dolor sit amet consectetur adipisicing.</marquee> -->
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur animi aut distinctio illum
+                    impedit expedita eveniet sapiente quibusdam sint. Laudantium iste eligendi eveniet placeat vel quis
+                    vitae repudiandae tempore inventore! Lorem ipsum
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div id="grace" class="row">
+                <div class="col-md-6">
+                    <img id="log" src="../assests/images/logo.png" class="img-fluid" alt="" srcset="">
+
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div id="social" class="col-md-4">
+                            <h3>Find us</h3>
+                            <img src="../assests/images/facebook.png" alt="" srcset="">
+                            <img src="../assests/images/instagram.png" alt="" srcset="">
+                            <img src="../assests/images/gmail_ios.png" alt="" srcset="">
+                        </div>
+                        <div class="col-md-4">
+                            <h3>Location</h3>
+                            <ul>
+                                <li> kooki tower.</li>
+                                <li> kampala .</li>
+                                <li> uganda.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pays" class="row">
+                <div class="col-md-3"></div>
+                <div class="pay" class="col-md-6">
+                    <span class="accept">We accept </span><span class="payment"><img src="../assests/icons/001-visa.svg"
+                            class="imgt" alt="" srcset=""></span>
+                    <span class="payment"><img src="../assests/icons/002-paypal.svg" class="imgt" alt=""
+                            srcset=""></span>
+                    <span class="payment"><img src="../assests/icons/003-mastercard.svg" class="imgt" alt=""
+                            srcset=""></span>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
